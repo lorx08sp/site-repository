@@ -1,4 +1,10 @@
 /* Stili generali */
+.index-page {
+  background-color: black;
+  background-image: none;
+  color: white;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -61,7 +67,7 @@ audio {
   padding: 15px 30px;
   font-size: 1.2em;
   background: rgba(255, 255, 255, 0.1);
-  border: 2px solid white;
+  border: 2px solid rgb(255, 0, 0);
   color: white;
   text-decoration: none;
   border-radius: 10px;
@@ -83,7 +89,7 @@ audio {
   left: 20px;
   padding: 10px 20px;
   font-size: 1em;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgb(255, 255, 255);
   border: 1px solid white;
   color: white;
   text-decoration: none;
@@ -93,17 +99,13 @@ audio {
 }
 
 .back-button:hover {
-  background: white;
-  color: black;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
-.index-page {
-  background-color: black;
-  background-image: none;
-  color: white;
-}
+
 
 .index-page .vibe-button {
-  border-color: white;
-  background: rgba(255, 255, 255, 0.1);
+  border-color: rgb(255, 0, 0);
+  background: rgb(255, 255, 255);
 }
