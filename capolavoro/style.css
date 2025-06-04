@@ -67,7 +67,7 @@ audio {
   padding: 15px 30px;
   font-size: 1.2em;
   background: rgba(255, 255, 255, 0.1);
-  border: 2px solid rgb(255, 0, 0);
+  border: 2px solid rgb(255, 255, 255);
   color: white;
   text-decoration: none;
   border-radius: 10px;
@@ -90,7 +90,7 @@ audio {
   padding: 10px 20px;
   font-size: 1em;
   background: rgb(0, 0, 0);
-  border: 2px solid rgb(0, 0, 0);
+  border: 2px solid rgb(255, 255, 255);
   color: rgb(255, 255, 255);
   text-decoration: none;
   border-radius: 8px;
@@ -99,13 +99,13 @@ audio {
 }
 
 .back-button:hover {
-  background: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
 }
 
 
 
 .index-page .vibe-button {
-  border: 2px solid rgb(255, 0, 0);
+  border: 2px solid rgb(255, 255, 255);
   background: rgb(0, 0, 0);
 }
